@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace Company.Route.DAL.Data.Contexts
 {
-    internal class CompanyDbContext:DbContext
+    public class CompanyDbContext:DbContext
     {
         // Constructor To open Connection to Database
         public CompanyDbContext():base()
